@@ -10,6 +10,6 @@ public class TR_For {
                 sum += i;
             }
         }
+		System.out.println("合計値 = " +  sum);
 	}
-
 }
