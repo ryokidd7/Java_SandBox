@@ -13,5 +13,6 @@ public class TR_If {
         } else {
             rank='D';
         }
+        System.out.println("あなたのランクは" + rank + "です。");
     }
 }
