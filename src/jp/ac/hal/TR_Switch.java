@@ -10,5 +10,6 @@ public class TR_Switch {
 	        case 4: System.out.println("パスタ"); break;
 	        default: System.out.println("小籠包"); break;
 	    }
+        //実行結果"小籠包"
     }
 }
