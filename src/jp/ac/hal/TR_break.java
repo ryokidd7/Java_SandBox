@@ -15,5 +15,10 @@ public class TR_break {
 	                }
 	            }
 	        }
+	    if (judge) {
+            System.out.println("当たり");
+        } else {
+            System.out.println("ハズレ");
+        }
     }
 }
