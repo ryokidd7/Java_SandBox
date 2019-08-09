@@ -7,5 +7,7 @@ public class TR_break {
 	    boolean judge = false;
 
 	    kuji:
+	    	for (int i = 0; i < slot.length; i++) {
+	        }
     }
 }
