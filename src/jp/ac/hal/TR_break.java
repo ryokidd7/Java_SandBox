@@ -9,6 +9,9 @@ public class TR_break {
 	    kuji:
 	    	for (int i = 0; i < lottery.length; i++) {
 	    		for (int j = 0; j < lottery[i].length; j++) {
+	    			if (lottery[i][j] == award ) {
+	                    judge = true;
+	                }
 	            }
 	        }
     }
