@@ -5,5 +5,7 @@ public class TR_break {
 		int[][] lottery = {{ 4, 35, 63, 16, 50 },{ 59, 89, 12, 32, 9 }};
 	    int award = 50;
 	    boolean judge = false;
+
+	    kuji:
     }
 }
