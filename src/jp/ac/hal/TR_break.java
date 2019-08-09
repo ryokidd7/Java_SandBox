@@ -11,6 +11,7 @@ public class TR_break {
 	    		for (int j = 0; j < lottery[i].length; j++) {
 	    			if (lottery[i][j] == award ) {
 	                    judge = true;
+	                    break kuji;
 	                }
 	            }
 	        }
