@@ -1,5 +1,5 @@
 package jp.ac.hal;
 
-public class TR_continue {
+public class TR_Continue {
 
 }
