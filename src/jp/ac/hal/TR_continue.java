@@ -13,5 +13,7 @@ public class TR_Continue {
         	count++;
             word.setCharAt(i, 'a');
         }
+        System.out.println("変更は" + count + "個です。");
+        System.out.println("jeveではなく" + word + "です。");
     }
 }
