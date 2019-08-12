@@ -10,6 +10,8 @@ public class TR_Continue {
         	if( word.charAt(i) != 'e') {
                 continue;
             }
+        	count++;
+            word.setCharAt(i, 'a');
         }
     }
 }
