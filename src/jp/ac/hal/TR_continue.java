@@ -15,5 +15,7 @@ public class TR_Continue {
         }
         System.out.println("変更は" + count + "個です。");
         System.out.println("jeveではなく" + word + "です。");
+        //変更は2個です。
+        //jeveではなくjavaです。
     }
 }
