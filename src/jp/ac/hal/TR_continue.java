@@ -5,5 +5,8 @@ public class TR_Continue {
 		StringBuffer word = new StringBuffer("jeve");
         int numWord = word.length();
         int count = 0;
+
+        for (int i = 0; i < numWord; i++) {
+        }
     }
 }
