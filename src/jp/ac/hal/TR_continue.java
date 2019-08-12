@@ -7,6 +7,9 @@ public class TR_Continue {
         int count = 0;
 
         for (int i = 0; i < numWord; i++) {
+        	if( word.charAt(i) != 'e') {
+                continue;
+            }
         }
     }
 }
