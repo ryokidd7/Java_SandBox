@@ -1,5 +1,9 @@
 package jp.ac.hal;
 
 public class TR_Continue {
-
+	public static void main(String[] args) {
+		StringBuffer word = new StringBuffer("jeve");
+        int numWord = word.length();
+        int count = 0;
+    }
 }
