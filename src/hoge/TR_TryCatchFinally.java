@@ -10,5 +10,9 @@ public class TR_TryCatchFinally {
         } finally {  //(3)finally節
             System.out.println("This program was finished.");
         }
+        //This program was finished.
+        //Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+    	//at hoge.TR_TryCatchFinally.main(TR_TryCatchFinally.java:6)
+        //と出た
     }
 }
