@@ -7,6 +7,8 @@ public class TR_TryCatchFinally {
             System.out.println("答えは" + (100/x));
         } catch(ArithmeticException e) {  //(2)catch節
             System.err.println("エラー" + e.getMessage());
+        } finally {  //(3)finally節
+            System.out.println("This program was finished.");
         }
     }
 }
