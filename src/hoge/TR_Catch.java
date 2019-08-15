@@ -14,5 +14,9 @@ public class TR_Catch {
         } finally {
             System.out.println("This program was finished");
         }
+        //Exception in thread "main" This program was finished
+        //java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+    	//at hoge.TR_Catch.main(TR_Catch.java:6)
+
     }
 }
