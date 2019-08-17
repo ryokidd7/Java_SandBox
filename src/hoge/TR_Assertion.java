@@ -12,6 +12,8 @@ public class TR_Assertion {
         for (int i = 0; i < y; i++) {
             z = z + x;
         }
+        assert z >= x && z >= y:"zがxまたはyより小さい値です。";
 
+        System.out.println(z);
     }
 }
