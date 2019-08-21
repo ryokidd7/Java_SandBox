@@ -11,6 +11,7 @@ public class TR_SimpleDateFormat {
 	    System.out.println(sdf1.format(date1));
 
 	    sdf1.applyPattern("yyyy/MM/dd");
+	    System.out.println(sdf1.format(date1));
 	  }
 
 }
