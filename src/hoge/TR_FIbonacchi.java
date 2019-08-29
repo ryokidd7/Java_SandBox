@@ -8,5 +8,11 @@ public class TR_FIbonacchi {
 
 		f1 = 1;
 		System.out.println( f1 );
+		for ( int i = 2; i <= 10; ++ i ) {
+			fn = f0 + f1;
+			System.out.println( fn );
+			f0 = f1;
+			f1 = fn;
+		}
 	}
 }
